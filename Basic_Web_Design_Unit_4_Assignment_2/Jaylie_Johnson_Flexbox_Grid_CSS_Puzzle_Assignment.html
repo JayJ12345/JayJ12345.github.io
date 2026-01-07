@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <title>Flexbox Grid CSS Puzzle Assignment Fish Puzzle</title>
+        </head>
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 1fr;
+                border: solid 3px black;
+                background-color: lightskyblue;
+                width: 960px;
+                height: 419px;
+            }
+            .box {
+                border: dotted 3px black;
+                background-color: lightblue;
+                width: 150px;
+                height: 399px;
+                margin: 5px 5px;
+                text-align: center;
+            }
+            .puzzle {
+                display: flex;
+                border: dotted 3px black;
+                height: 399px;
+                width: 600px;
+                margin: 5px 5px;
+            }
+            .random_piece {
+                display: none;
+            }
+        </style>
+        <div class="grid">
+            <section class="box">
+                <p>My name is Jaylie Johnson and I chose the Fish Puzzle. </p>
+            </section>
+            <section class="box">
+                <p>Today's date is January 1, 2026 (1/7/2026). </p>
+            </section>
+            <section class="puzzle">
+                <div>
+                    <img src="Fish_Pieces/1.jpg">
+                    <img src="Fish_Pieces/4.jpg">
+                    <img src="Fish_Pieces/7.jpg">
+                </div>
+                <div>
+                    <img src="Fish_Pieces/2.jpg">
+                    <img src="Fish_Pieces/5.jpg">
+                    <img src="Fish_Pieces/8.jpg">
+                </div>
+                <div>
+                    <img src="Fish_Pieces/3.jpg">
+                    <img src="Fish_Pieces/6.jpg">
+                    <img src="Fish_Pieces/9.jpg">
+                </div>
+                <div>
+                    <img src="Fish_Pieces/trick.jpg" class="random_piece"></div>
+            </section>
+        </div>
+</html>
