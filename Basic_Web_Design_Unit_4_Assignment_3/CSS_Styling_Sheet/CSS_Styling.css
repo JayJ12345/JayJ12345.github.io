@@ -1,0 +1,21 @@
+/* CSS Styling Sheet */
+
+table, td, tr, th {
+    border: double 3px black;
+    border-collapse: collapse;
+    width: 600px;
+    text-align: right;
+    background-color: rgb(215, 243, 252);
+}
+#centered {
+    text-align: center;
+}
+tr {
+    height: 25px;
+}
+td:hover {
+    background-color: lightblue;
+}
+th:hover {
+    background-color: lightblue;
+}
