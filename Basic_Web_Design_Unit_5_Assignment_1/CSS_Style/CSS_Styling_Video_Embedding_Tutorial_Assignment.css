@@ -1,0 +1,13 @@
+/* CSS Styling for Video Embedding Tutorial Assignment */
+
+ul {
+    font-size: 110%;
+}
+img {
+    padding: 5px 5px;
+    width: 400px;
+}
+img:hover {
+    background-color: rgb(144, 189, 219);
+    border: solid 2px black;
+}
