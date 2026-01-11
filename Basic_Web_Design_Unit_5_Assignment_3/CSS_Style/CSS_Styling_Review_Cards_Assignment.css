@@ -1,0 +1,77 @@
+/* CSS Styling for Review Cards Assignment*/
+
+.multicards {
+    display: flex;
+    margin: 15px;
+}
+p {
+    text-align: center;
+    font-size: 70%;
+}
+
+/* Title */
+@keyframes spinny {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1440deg);
+    }
+}
+.spintitle {
+    animation-duration: 1s;
+    animation-name: spinny;
+    animation-iteration-count: 1;
+}
+.title {
+    width: 220px;
+    height: 25px;
+    border: double black 3px;
+    background-color: lightblue;
+    font-size: 120%;
+    text-align: center;
+    margin: auto;
+}
+
+/* Cards */
+@keyframes answer {
+    0% {
+        transform: rotate(0deg);
+        color: lightcoral;
+    }
+    100% {
+        transform: rotate(0deg);
+        color: black;
+    }
+}
+.a:hover {
+    margin: 10px 10px;
+    animation-name: answer;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    color: black;
+}
+.card {
+    border: 3px black solid;
+    background-color: lightcoral;
+    width: 225px;
+    height: 250px;
+    margin: 50px 50px;
+    align-content: center;
+    margin: auto;
+}
+.question {
+    padding: 20px 20px;
+    margin: 10px 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.answer {
+    padding: 20px 20px;
+    margin: 10px 10px;
+    color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 70%;
+}
